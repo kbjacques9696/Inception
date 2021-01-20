@@ -1,0 +1,566 @@
+	html, body
+	{
+		height: 100%;
+	}
+	
+	body
+	{
+		margin: 0px;
+		padding: 0px;
+		background:rgb(126, 128, 127);
+		font-family: 'Didact Gothic', sans-serif;
+		font-size: 12pt;
+		font-weight: 200;
+		color: rgb(8, 8, 8);
+	}
+	
+	
+
+	
+	a:hover
+	{
+		text-decoration: none;
+	}
+	
+	.container
+	{
+		overflow: hidden;
+		margin: 0em auto;
+		width: 1500px;
+	}
+
+
+	
+
+/* Image Style                                                                   */
+
+
+	.image
+	{
+		display: inline-block;
+	}
+	
+	.image img
+	{
+		display: block;
+		width: 100%;
+	}
+	
+	.image-full
+	{
+		display: block;
+		width: 100%;
+		margin: 0 0 2em 0;
+	}
+	
+	.image-left
+	{
+		float: left;
+		margin: 0 2em 2em 0;
+	}
+	
+	.image-centered
+	{
+		display: block;
+		margin: 0 0 2em 0;
+	}
+	
+	.image-centered img
+	{
+		margin: 0 auto;
+		width: auto;
+	}
+
+/* List Styles                                                                   */
+
+	
+	ul.actions li
+	{
+		display: inline-block;
+		padding: 0em 0.50em;
+	}
+
+
+
+/* Button Style                                                                  */
+
+
+	.button
+	{
+		display: inline-block;
+		padding: 1em 1em 1em 1em;
+		letter-spacing: 0.10em;
+		margin-top: .5em;
+		padding: 1.40em 3em;
+		background: #c0c7c0;
+		border-radius: 6px;
+		text-decoration: none;
+		font-weight: 700;
+		font-size: 1em;
+		color: #003f10;
+	}
+	
+	.button-alt
+	{
+		padding: 1em 2em;
+		border-color: rgba(0,0,0,.8);
+	}
+		
+
+
+/* want to help                                                                      */
+
+
+	.boxA,
+	.boxB,
+	.boxC
+	{
+		width: 384px;
+	}
+
+	.boxA
+	{
+		float: left;
+	}
+
+	.boxB
+	{
+		float:left;
+		padding: 0em 0em 0em 10em
+
+	}
+	
+	.boxC
+	{
+		float: right;
+	}
+                                                                    
+
+
+/* Heading Titles                                                                */
+
+
+	.title
+	{
+		margin-bottom: 3em;
+	}
+	
+	.title h2
+	{
+		font-size: 2.7em;
+	}
+	
+	.title .byline
+	{
+		font-size: 1.3em;
+		color: rgba(10, 22, 10, 0.6);
+	}
+
+/* Header                                                                        */
+
+
+	#wrapper
+	{
+		position: relative;
+		padding: 5em 0em 7em 0em;
+		background: #FFF;
+	}
+/* Header                                                                        */
+
+
+	#header-wrapper
+	{
+		position: relative;
+		padding: 0em 0em 0em 0em;
+		background: #111111 url(city-wallpapers-9.jpg) no-repeat center;
+		background-size: cover;
+	}
+	#header-wrapper2
+	{
+		position: relative;
+		padding: 0em 0em 0em 0em;
+		background: #7c7b7b ;
+		background-size: cover;
+	}
+	#header-wrapper3
+	{
+		position: relative;
+		padding: 0em 0em 0em 0em;
+		
+		
+	}
+
+	#header
+	{
+		position: relative;
+		padding: 0em 0em 23em 0em;
+	}
+/* Logo                                                                          */
+
+	#logo
+	{
+		position: absolute;
+		top: 1em;
+		left: 10em;
+	}
+	
+	#logo h1
+	{
+		font-size: 2.6em;
+		color: #79C255;
+	}
+	
+	#logo a
+	{
+		text-decoration: none;
+		color: rgb(162, 165, 162);
+	}
+
+	#logo2
+	{
+		position: left top;
+		top: 1em;
+		left: 0;
+	}
+
+/* Menu                                                                          */
+
+	#menu
+	{
+		position: absolute;
+		top: 2em;
+		right: 0;
+	}
+	
+	#menu ul
+	{
+		display: inline-block;
+	}
+	
+	#menu li
+	{
+		display: block;
+		float: left;
+		text-align: center;
+	}
+	
+	#menu li a, #menu li span
+	{
+		padding: 1em 1.5em;
+		letter-spacing: 1px;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 1.2em;
+		color: rgba(158, 157, 163, 0.8);
+	}
+	
+	
+	#menu .active a
+	{
+		background: #747774;
+		border-radius: 6px;
+		color: rgba(255,255,255,1);
+		color: #141313;
+	}
+	
+
+
+/* Banner                                                                        */
+
+
+	#banner-wrapper
+	{
+		padding: 0em 0em;
+		background: rgba(187, 189, 188, 0.8);
+	}
+
+	#banner
+	{
+		text-align: center;
+	}
+	
+	#banner .title h2
+	{
+		font-size: 2em;
+	}
+	
+	#banner .title .byline
+	{
+		font-size: 1.5em;
+	}
+	
+	#banner .button
+	{
+		margin-top: 0em;
+		padding: 1.40em 1em;
+		border-radius: 1px;
+		font-weight: 300;
+		font-size: 1em;
+		
+	}
+	
+	.banner
+	{
+		margin-bottom: 1em;
+	}
+
+
+
+	#copyright
+	{
+		display:none;
+		overflow: hidden;
+		padding: 5em 0em;
+		border-top: 1px solid rgba(0,0,0,0.08);
+	}
+	
+	#copyright p
+	{
+		text-align: center;
+		font-size: 1em;
+		color: rgba(255,255,255,0.3);
+	}
+	
+	#copyright a
+	{
+		text-decoration: none;
+		color: rgba(255,255,255,0.6);
+	}
+
+
+/* Welcome                                                                       */
+
+	#welcome
+	{
+		position: relative;
+		padding: 7em 0em 7em 0em;
+		background: #dee2de;
+		background-size: cover;
+		text-align: center;
+	}
+	
+	#welcome .container
+	{
+		width: 1000px;
+		padding: 0px 100px;
+		color: rgba(255,255,255,0.8);
+	}
+	
+	#welcome a
+	{
+		color: rgba(255,255,255,1);
+	}
+	
+	#welcome .button
+	{
+		background: #FFF;
+		color: #3f0900;
+	}
+
+/* Extra                                                                         */
+
+
+	#three-column
+	{
+		text-align: center;
+		color: rgba(0,0,0,0.6);
+	}
+
+	#three-column .fa
+	{
+		display: block;
+		padding: 1em 0em;
+		color: rgba(0,0,0,1);
+		font-size: 2em;
+	}
+	
+	#three-column .title h2
+	{
+		font-weight: bold;
+		color: rgba(0,0,0,0.8);
+	}
+
+	#three-column .title .byline
+	{
+		text-align: center;
+		color: rgba(0,0,0,.5);
+	}
+
+/* Container needed to position the button. Adjust the width as needed */
+.container2 {
+	position: relative;
+	width: 50%;
+  }
+  
+  /* Make the image responsive */
+  .container2 img {
+	width: 100%;
+	height: auto;
+  }
+  
+  /* Style the button and place it in the middle of the container/image */
+  .container2 .btn {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	background-color: #555;
+	color: white;
+	font-size: 16px;
+	padding: 12px 24px;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+  }
+  
+  .container2 .btn:hover {
+	background-color: rgb(0, 0, 0);
+  }
+
+  #cleanupInfo {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5em;
+    max-width: 30%;
+    margin: 1em;
+}
+h1{
+    display:flex;
+    text-align: center;    
+    font-family: oswald, serif;
+    font-weight: 700;
+    margin:0.7em;
+}
+
+h3{
+    display: flex;
+    flex-wrap: nowrap;
+    font-family: Oswald, serif;
+    font-size: 2em;
+    font-weight:500;
+    margin-top: 1.4em;
+    margin-bottom:1em;
+    
+}
+p{
+    font-family: raleway;
+    font-size:1.5em;
+    margin-left: 2em;
+}
+input{
+    background-color: #fafdfc;
+    display: flex;
+    color:#606462;
+}
+
+textarea{
+    background-color: #ffffff;
+    height:20em;
+    width:15em;
+    color:#727473;
+    
+}
+::placeholder{
+    color:rgb(116, 117, 116);
+	opacity: 1;
+	
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+	color:rgb(122, 128, 124);
+	
+}
+#mainBucket{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+#addMoreTeamButton{
+    display:flex;
+    align-items: center;
+    height:auto;
+    width:10em;
+    background-color: #2d302e;
+    color: #7e817f;
+    margin: 1em;
+    margin-top: 63%;
+}
+#addMoreDonationDetailsButton{
+    display:flex;
+    align-items: center;
+    height:auto;
+    width: 10em;    
+    background-color: #153f2c;
+    color: #5e615f;
+    margin: 1em;
+    margin-top:81%;
+}
+#addTeamButton{
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    width:25%;
+}
+#mainBucket{
+    display: flex;
+    flex-direction: row;
+}
+#cleanupInfo {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5em;
+    max-width: 30%;
+    margin: 1em;
+}
+#teamCaptainInfo{
+    display: flex;
+    flex-direction: column;
+     max-width: 30%;
+    margin-left: 1em;
+}
+#teamMemberAddButton{
+    display:flex;
+    align-items: flex-start;
+}
+#additionalTeamMembers{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 30%;
+      margin-left:1em;
+}
+
+#businessForm{
+    display:flex;
+    flex-direction: column;
+}
+
+#infoFromCoordinator{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#requestDiv{
+    display: flex;
+    max-width:50%;
+}
+.newTeammateFirstName{
+    margin-top:0.75em;
+    margin-bottom: 0.2em;
+}
+.newTeammateLastName{
+    margin-top:0.2em;
+    margin-bottom: 0.75em;
+}
+.teamMemberContainer{
+    display: flex;
+    flex-direction: column;
+}
+.input{
+    display: flex;
+    flex-direction: row;
+}
+
+
