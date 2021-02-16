@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <title>Upload</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <a href="index.html">
+                    <h3>
+                      <span class="highlight"> REALTH</span>
+                        <span class="lighter">House Predictor</span>
+                    </h3>
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="fullpageUpload">
+        <div class="section-container">
+            <div class="upload">
+                <div class="listing">
+                    <img src="assets/house1.jpg" />
+                    <h3 id="uploadPictureBtn" style="cursor: pointer">
+                        Upload Picture
+                    </h3>
+                    <div id="uploadPictureContainer" style="display: none">
+                        <input type="file" id="pictureToUpload" /><br />
+                        <h5>
+                            <span style="font-size: 10px">Maximum file size should be 3mb</span
+                >
+              </h5>
+              <br />
+              <div>
+                <label>Price:</label><br />
+                <input type="text" id="price" /><br />
+
+                <label>Location:</label><br />
+                <input type="text" id="piclocation" /><br />
+
+                <label>Bedrooms:</label><br />
+                <input type="text" id="bedrooms" /><br />
+
+                <label>Bathrooms:</label><br />
+                <input type="text" id="bathrooms" /><br />
+              </div>
+              <br />
+              <button id="idSubmitPicture" type="button">Submit</button>
+              <br />
+            </div>
+          </div>
+          <div class="listing">
+            <img src="assets/house4.jpg" />
+            <h3 id="uploadVideoBtn" style="cursor: pointer">Upload Video</h3>
+            <div id="uploadVideoContainer" style="display: none">
+              <input type="file" id="videoToUpload" /><br />
+              <h5>
+                <span style="font-size: 10px"
+                  >Maximum file size should be 50mb</span
+                >
+              </h5>
+              <br />
+              <div>
+                <label>Price:</label><br />
+                <input type="text" id="vidPrice" /><br />
+
+                <label>Location:</label><br />
+                <input type="text" id="vidLocation" /><br />
+
+                <label>Bedrooms:</label><br />
+                <input type="text" id="vidBedrooms" /><br />
+
+                <label>Bathrooms:</label><br />
+                <input type="text" id="vidBathrooms" /><br />
+              </div>
+              <br />
+              <button id="idSubmitVideo">Submit</button>
+              <br />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>All Rights reserved | Copyright &copy;2021</p>
+    </footer>
+    <script src="js/upload.js"></script>
+  </body>
+</html>
